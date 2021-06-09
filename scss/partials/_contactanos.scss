@@ -1,0 +1,21 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+#ubicacion {
+    color: $color-1;
+
+    p {
+        @include mixins (10%, 0);
+    }
+
+    h2 {
+        @include mixins (11%, 0);
+        font-family: $font-titulo;
+        text-decoration: underline;
+    }
+}
+
+/* IMAGEN DE BARBERIA (UBICACION) */
+#ubicacion-imagen {
+    width: $ancho-base;
+}

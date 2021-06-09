@@ -1,0 +1,281 @@
+.corte-afeitado-titulo {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  margin-top: 0;
+  margin-bottom: -4%;
+}
+
+/* TEXTO DE PRESENTACION DE BAR */
+#texto-bar {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 28%;
+  position: relative;
+  top: 40%;
+}
+
+/* CONTAINER DE BAR */
+#contenedor-carta-bar {
+  margin-top: 4%;
+  margin-bottom: 0;
+  /* IMAGEN DE LA CARTA DE LOS PRECIOS DE TRAGOS */
+  /* TITULO DE CAR BARD (TRAGOS) */
+  /* CARD BARD LISTADO (LI) */
+}
+#contenedor-carta-bar #imagen-costo-tragos {
+  width: 100%;
+}
+#contenedor-carta-bar #titulo-tragos {
+  margin-top: 0;
+  margin-bottom: 6%;
+}
+#contenedor-carta-bar #listado-tragos ul li {
+  list-style: none;
+}
+
+/* CONTENEDOR DE NUESTRO CORTE (CONTENEDOR UNO) */
+#contenedor-uno {
+  margin-top: 3%;
+  margin-bottom: 0;
+  /* TITULOS DE NUESTRO CORTE Y NUESTRO AFEITADO */
+  /* TEXTO (NUSTRO CORTE Y NUESTRO AFEITADO) */
+}
+#contenedor-uno .corte-afeitado-titulo {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  margin-top: 0;
+  margin-bottom: -4%;
+}
+#contenedor-uno .texto-nuestro-corte {
+  color: white;
+  margin-top: 13%;
+  margin-bottom: 0;
+}
+
+#contenedor-afeitado {
+  margin-top: 3%;
+  margin-bottom: 0;
+  /* TITULOS DE NUESTRO CORTE Y NUESTRO AFEITADO */
+  /* TEXTO (NUSTRO CORTE Y NUESTRO AFEITADO) */
+}
+#contenedor-afeitado .corte-afeitado-titulo {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  margin-top: 0;
+  margin-bottom: -4%;
+}
+#contenedor-afeitado .texto-nuestro-corte {
+  color: white;
+  margin-top: 13%;
+  margin-bottom: 0;
+}
+
+/* CARTA DE NUESTRAS TARIFAS */
+#carta-precios {
+  margin-left: -0.7%;
+  margin-right: -0.7%;
+  margin-top: 0;
+  margin-bottom: 2%;
+  /* COSTO DEL SERVICIO (CONTENEDOR) */
+}
+#carta-precios #contenedor-servicios {
+  margin: 18% 0;
+  /* IMAGEN DE NUSTRAS TARIFAS (SILLA) */
+  /* NUESTRAS TARIFAS (TITULO) */
+  /* MONTO EN $ DE LOS SERVICIOS (SPAN DE LISTA DE PRECIOS) */
+}
+#carta-precios #contenedor-servicios #imagen-tarifas {
+  width: 6%;
+  position: absolute;
+  bottom: 136%;
+  left: 47%;
+}
+#carta-precios #contenedor-servicios #tarifas-titulo {
+  text-align: center;
+  margin-top: -7%;
+  margin-bottom: 0;
+  color: black;
+  font-family: "Roboto Slab", serif;
+}
+#carta-precios #contenedor-servicios .precios {
+  position: absolute;
+  top: 21%;
+  right: 2%;
+}
+
+#ubicacion {
+  color: white;
+}
+#ubicacion p {
+  margin-top: 10%;
+  margin-bottom: 0;
+}
+#ubicacion h2 {
+  margin-top: 11%;
+  margin-bottom: 0;
+  font-family: "Roboto Slab", serif;
+  text-decoration: underline;
+}
+
+/* IMAGEN DE BARBERIA (UBICACION) */
+#ubicacion-imagen {
+  width: 100%;
+}
+
+/* CONTAINER DEL NOSOTROS (EL PRIMERO) */
+.contenedor-uno {
+  margin-top: 4%;
+  margin-bottom: 0;
+  /* TITULOS DE LA SECCION NOSOTROS (TODOS LOS H2) */
+  /* TEXTO DE NOSOTROS (HISTORIA) */
+}
+.contenedor-uno .todos-titulos-nosotros {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  margin-top: 0;
+  margin-bottom: -2%;
+}
+.contenedor-uno .texto-nosotros {
+  color: white;
+  margin: 8% 0;
+}
+
+/* CONTENEDOR ENZO (CONTENEDOR DOS) */
+.contenedor-dos {
+  margin-top: 10%;
+  margin-bottom: 0;
+  /* TEXTO DE LOS BARBERS (ENZO, THOMAS) */
+  /* INSTAGRAM (ENZO, THOMAS) */
+}
+.contenedor-dos .todos-titulos-nosotros {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  margin-top: 0;
+  margin-bottom: -2%;
+}
+.contenedor-dos .titulos-barbers {
+  margin-top: 0;
+  margin-bottom: -3%;
+}
+.contenedor-dos .texto-barbers {
+  color: white;
+  margin-top: 25%;
+  margin-bottom: 0;
+}
+.contenedor-dos .instagram-img {
+  width: 5%;
+  margin-left: -1%;
+}
+
+/* CONTENEDOR THOMAS (CONTENEDOR TRES) */
+.contenedor-tres {
+  margin-top: 10%;
+  margin-bottom: 4%;
+  /* TEXTO DE LOS BARBERS (ENZO, THOMAS) */
+  /* INSTAGRAM (ENZO, THOMAS) */
+}
+.contenedor-tres .todos-titulos-nosotros {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  margin-top: 0;
+  margin-bottom: -2%;
+}
+.contenedor-tres .titulos-barbers {
+  margin-top: 0;
+  margin-bottom: -3%;
+}
+.contenedor-tres .texto-barbers {
+  color: white;
+  margin-top: 25%;
+  margin-bottom: 0;
+}
+.contenedor-tres .instagram-img {
+  width: 5%;
+  margin-left: -1%;
+}
+
+/************* MEDIA QUERIES ***********************/
+@media (max-width: 1200px) {
+  /* MEDIA QUERIES DEL "BARBERIA" (FONDO DE LA LISTA DE PRECIOS) */
+  .imagen-fondo-precios {
+    height: 136VH;
+  }
+
+  #imagen-tarifas {
+    display: none;
+  }
+}
+@media (max-width: 946px) {
+  #media-queries-carrousel {
+    display: none;
+  }
+
+  header {
+    display: none;
+  }
+
+  .texto-barbers {
+    position: relative;
+    top: -18%;
+  }
+
+  .instagram-img {
+    display: none;
+  }
+}
+@media (min-width: 945px) {
+  .imagen-bienvenidos-responsive {
+    display: none;
+  }
+
+  #navbar-reponsive {
+    display: none;
+  }
+}
+/************************** RESPONSIVE *******************************/
+.imagen-bienvenidos-responsive img {
+  width: 100%;
+  height: 93vh;
+}
+
+/* TITULO DEL NAVBAR (LOS PICULEROS) */
+.piculeros-responsive {
+  color: white;
+  font-family: "Lobster", cursiva;
+  border: white;
+  text-decoration: line-through black;
+}
+
+/* Titulo del navbar (LOS PICULEROS) */
+.titulo-index {
+  font-size: 1.6em;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+}
+
+.mi-menu-dos {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  /* MENU HAMBURGUESA (ICONO) */
+}
+.mi-menu-dos #mi-menu {
+  width: 4%;
+}
+
+/* LETRAS DEL MENU EJECUTADO */
+.menu-items {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.footer {
+  font-size: 0.9em;
+  color: #ffffff40;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

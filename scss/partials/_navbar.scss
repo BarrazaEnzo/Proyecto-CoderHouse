@@ -1,0 +1,25 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+/* Titulo del navbar (LOS PICULEROS) */
+.titulo-index {
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: $font-titulo;
+}
+
+.mi-menu-dos {
+    display: flex;
+    justify-content: flex-end;
+    width: $ancho-base / 2;
+
+    /* MENU HAMBURGUESA (ICONO) */
+    #mi-menu {
+        width: $ancho-base - 96;
+    }
+}
+
+/* LETRAS DEL MENU EJECUTADO */
+.menu-items {
+    color: $color-1;
+}

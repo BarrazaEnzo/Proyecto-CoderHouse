@@ -1,0 +1,53 @@
+@import "../variables/variables";
+
+/************* MEDIA QUERIES ***********************/
+@media (max-width:1200px) {
+    /* MEDIA QUERIES DEL "BARBERIA" (FONDO DE LA LISTA DE PRECIOS) */
+    .imagen-fondo-precios {
+        height: 136VH;
+    }
+    #imagen-tarifas {
+        display: none;
+    }
+}
+
+@media (max-width: 946px) {
+    #media-queries-carrousel {
+        display: none;
+    }
+    header {
+        display: none;
+    }
+    .texto-barbers {
+        position: relative;
+        top: -18%;
+    }
+    .instagram-img {
+        display: none;
+    }
+}
+
+@media (min-width: 945px) {
+    .imagen-bienvenidos-responsive {
+        display: none;
+    }
+
+    #navbar-reponsive {
+        display: none;
+    }
+}
+
+/************************** RESPONSIVE *******************************/
+.imagen-bienvenidos-responsive img {
+    width: $ancho-base;
+    height: 93vh;
+}
+
+/* TITULO DEL NAVBAR (LOS PICULEROS) */
+.piculeros-responsive {
+    color: $color-1;
+    font-family: $font-navbar-responsive;
+    border: $color-1;
+    text-decoration: line-through $color-2;
+    
+}

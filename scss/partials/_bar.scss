@@ -1,0 +1,36 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+.corte-afeitado-titulo{
+    color: $color-1;
+    font-family: $font-titulo;
+    @include mixins (0, -4%);
+}
+
+/* TEXTO DE PRESENTACION DE BAR */
+#texto-bar {
+    color: $color-1;
+    @include mixins (0, 28%);
+    position: relative;
+    top: $ancho-base - 60;
+}
+
+/* CONTAINER DE BAR */
+#contenedor-carta-bar {
+    @include mixins (4%, 0);
+
+    /* IMAGEN DE LA CARTA DE LOS PRECIOS DE TRAGOS */
+    #imagen-costo-tragos {
+        width: $ancho-base;
+    }
+
+    /* TITULO DE CAR BARD (TRAGOS) */
+    #titulo-tragos {
+        @include mixins (0, 6%);
+    }
+
+    /* CARD BARD LISTADO (LI) */
+    #listado-tragos ul li {
+        list-style: none;
+    }
+}

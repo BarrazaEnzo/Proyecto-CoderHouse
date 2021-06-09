@@ -1,0 +1,75 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+/* CONTAINER DEL NOSOTROS (EL PRIMERO) */
+.contenedor-uno {
+    @include mixins (4%, 0);
+
+    /* TITULOS DE LA SECCION NOSOTROS (TODOS LOS H2) */
+    .todos-titulos-nosotros{
+        color: $color-1;
+        font-family: $font-titulo;
+        @include mixins (0, -2%);
+    }
+
+    /* TEXTO DE NOSOTROS (HISTORIA) */
+    .texto-nosotros {
+        color: $color-1;
+        margin: 8% 0;
+    }
+}
+
+/* CONTENEDOR ENZO (CONTENEDOR DOS) */
+.contenedor-dos {
+    @include mixins (10%, 0);
+
+    .todos-titulos-nosotros{
+        color: $color-1;
+        font-family: $font-titulo;
+        @include mixins (0, -2%);
+    }
+
+    .titulos-barbers {
+        @include mixins (0, -3%);
+    }
+
+    /* TEXTO DE LOS BARBERS (ENZO, THOMAS) */
+    .texto-barbers {
+        color: $color-1;
+        @include mixins (25%, 0);
+    }
+
+    /* INSTAGRAM (ENZO, THOMAS) */
+    .instagram-img {
+        width: $ancho-base / 20;
+        margin-left: -1%;
+    }
+}
+
+/* CONTENEDOR THOMAS (CONTENEDOR TRES) */
+.contenedor-tres {
+    @include mixins (10%, 4%);
+
+    .todos-titulos-nosotros{
+        color: $color-1;
+        font-family: $font-titulo;
+        @include mixins (0, -2%);
+    }
+
+    .titulos-barbers {
+        @include mixins (0, -3%);
+    }
+
+    /* TEXTO DE LOS BARBERS (ENZO, THOMAS) */
+    .texto-barbers {
+        color: $color-1;
+        @include mixins (25%, 0);
+    }
+
+    /* INSTAGRAM (ENZO, THOMAS) */
+    .instagram-img {
+        width: $ancho-base / 20;
+        margin-left: -1%;
+    }
+}
+

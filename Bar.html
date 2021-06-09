@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Los piculeros · Barberia Masculina y Bar de Mendoza, en donde se busca dar la mejor calidad y comodidad para los clientes.">
+    <meta name="keywords" content="Los Piculeros, Barberia, Peluqueria, Bar, Tragos, Mendoza">
+  
+    <!-- Open Graph -->
+    <meta property="og:title" content="Los piculeros · Barberia Masculina y Bar">
+    <meta property="og:description" content="Los piculeros · Barberia Masculina y Bar de Mendoza, en donde se busca dar la mejor calidad y comodidad para los clientes. !Contactanos ahora mismo¡">
+    <meta property="og:type" content="Plataforma de Los Piculeros">
+    <meta property="og:url" content="https://lospiculeros.com">
+    <meta property="og:image" content="imagenes/afeitado.jpg">
+  
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  
+    <title>Bar - Los piculeros · Barberia Masculina y Bar de Mendoza</title>
+  
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family = Roboto + Slab: wght @ 900 & display = intercambiar "
+      rel=" hoja de estilo ">
+    
+      <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+   
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+  
+  </head>
+
+<body>
+  <!-- Encabezado -->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand titulo-index" href="index.html">Los Piculeros</a>
+        <a class="btn btn-dark mi-menu-dos" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+          aria-controls="offcanvasExample">
+          <img id="mi-menu" src="imagenes/menu.png" alt="menu">
+        </a>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header bg-dark">
+            <button type="button" class="btn-close text-reset bg-light" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body bg-dark navbar-dark">
+            <div>
+              <ul>
+                <li><a class="dropdown-item menu-items" href="index.html">Inicio</a></li>
+                <li><a class="dropdown-item menu-items" href="Nosotros.html">Nosotros</a></li>
+                <li><a class="dropdown-item menu-items" href="Barberia.html">Barberia</a></li>
+                <li><a class="dropdown-item menu-items" href="Bar.html">Bar</a></li>
+                <li><a class="dropdown-item menu-items" href="Contactanos.html">Contactanos</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!---------------- RESPONSIVE ------------------->
+  <!-- NAVBAR -->
+  <div class="sticky-top">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <ul>
+          <li><a class="dropdown-item menu-items" href="index.html">Inicio</a></li>
+          <li><a class="dropdown-item menu-items" href="Nosotros.html">Nosotros</a></li>
+          <li><a class="dropdown-item menu-items" href="Barberia.html">Barberia</a></li>
+          <li><a class="dropdown-item menu-items" href="Bar.html">Bar</a></li>
+          <li><a class="dropdown-item menu-items" href="Contactanos.html">Contactanos</a></li>
+        </ul>
+      </div>
+    </div>
+    <nav id="navbar-reponsive" class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <h3 class="piculeros-responsive">Los piculeros</h3>
+      </div>
+    </nav>
+  </div>
+
+  <!-- BAR PRESENTACION -->
+  <div data-aos="fade-down" data-aos-duration="1800" class="container">
+    <div>
+      <h2 class="corte-afeitado-titulo">Bar</h2>
+    </div>
+    <div class="row">
+      <div class="col-12 col-xl-4">
+        <p id="texto-bar">
+          Este bello bar tiene un estilo moderno, lo cual lo podrá observar al entrar, bebidas de primer calidad y
+          tragos únicos. Goza de un ambiente cálido y música acorde.
+        </p>
+      </div>
+      <div class="col-12 col-xl-8">
+        <img style="height: 100%; width: 100%;" src="imagenes/bar.jpg" alt="Imagen de Bar">
+      </div>
+    </div>
+  </div>
+
+  <!-- CARTA DE BAR CON LOS PRECIOS -->
+  <div data-aos="fade-up" data-aos-duration="1800" id="contenedor-carta-bar" class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img id="imagen-costo-tragos" src="imagenes/tragos.jpg" alt="Tragos">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 id="titulo-tragos" class="card-title">Tragos</h5>
+                <p class="card-text">
+                <div id="listado-tragos" class="container">
+                  <div class="row">
+                    <div class="col-12 col-xl-4">
+                      <ul>
+                        <li>Martini seco $430</li>
+                        <li>Margarita $500</li>
+                        <li>Ginebra Fizz $650</li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-xl-4">
+                      <ul>
+                        <li>Aperol Spritz $1000</li>
+                        <li>Negroni $1230</li>
+                        <li>Anticuado $700</li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-xl-4">
+                      <ul>
+                        <li>Pisco Sour $900</li>
+                        <li>Mojito $380</li>
+                        <li>Alejandro $1200</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>Desarrollo web: Barraza Enzo</p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

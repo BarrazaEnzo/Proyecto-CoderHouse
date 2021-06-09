@@ -1,0 +1,72 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+/* CONTENEDOR DE NUESTRO CORTE (CONTENEDOR UNO) */
+#contenedor-uno {
+    @include mixins (3%, 0);
+
+    /* TITULOS DE NUESTRO CORTE Y NUESTRO AFEITADO */
+    .corte-afeitado-titulo{
+        color: $color-1;
+        font-family: $font-titulo;
+        @include mixins (0, -4%);
+    }
+
+    /* TEXTO (NUSTRO CORTE Y NUESTRO AFEITADO) */
+    .texto-nuestro-corte {
+        color: $color-1;
+        @include mixins (13%, 0);
+    }
+}
+
+#contenedor-afeitado {
+    @include mixins (3%, 0);
+
+    /* TITULOS DE NUESTRO CORTE Y NUESTRO AFEITADO */
+    .corte-afeitado-titulo{
+        color: $color-1;
+        font-family: $font-titulo;
+        @include mixins (0, -4%);
+    }
+
+    /* TEXTO (NUSTRO CORTE Y NUESTRO AFEITADO) */
+    .texto-nuestro-corte {
+        color: $color-1;
+        @include mixins (13%, 0);
+    }
+}
+
+/* CARTA DE NUESTRAS TARIFAS */
+#carta-precios {
+    margin-left: -0.7%; 
+    margin-right: -0.7%; 
+    @include mixins (0, 2%);
+
+    /* COSTO DEL SERVICIO (CONTENEDOR) */
+    #contenedor-servicios {
+        margin: 18% 0;
+
+        /* IMAGEN DE NUSTRAS TARIFAS (SILLA) */
+        #imagen-tarifas {
+            width: $ancho-base - 94;
+            position: absolute;
+            bottom: $ancho-base + 36;
+            left: $ancho-base - 53;
+        }
+
+        /* NUESTRAS TARIFAS (TITULO) */
+        #tarifas-titulo {
+            text-align: center;
+            @include mixins (-7%, 0);
+            color: $color-2;
+            font-family: $font-titulo;
+        }
+        /* MONTO EN $ DE LOS SERVICIOS (SPAN DE LISTA DE PRECIOS) */
+        .precios {
+            position: absolute;
+            top: $ancho-base - 79;
+            right: $ancho-base - 98;
+        }
+    }   
+}
+
